@@ -96,7 +96,7 @@ const EmailSection = () => {
               ref={tooltipRef}
               className="bg-gray-500 bg-opacity-50 px-2  mt-2  text-gray-200  rounded opacity-0 transition-opacity duration-300"
             >
-              +91 9760859659
+              +91-9760859659
             </div>
           </div>
         </div>
