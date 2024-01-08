@@ -58,12 +58,12 @@ const AboutMe = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm a full-stack web developer, I'm passionate about crafting
-            interactive and responsive web applications. My expertise includes
-            JavaScript, React, Redux, Node.js, Express, RDS, MySQL, HTML, CSS,
-            and Git. A quick learner, I'm always eager to expand my knowledge. I
-            thrive in a collaborative environment, bringing strong teamwork
-            skills to create amazing applications.``````
+            I&apos;m a full-stack web developer, I&apos;m passionate about
+            crafting interactive and responsive web applications. My expertise
+            includes JavaScript, React, Redux, Node.js, Express, RDS, MySQL,
+            HTML, CSS, and Git. A quick learner, I&apos;m always eager to expand
+            my knowledge. I thrive in a collaborative environment, bringing
+            strong teamwork skills to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
