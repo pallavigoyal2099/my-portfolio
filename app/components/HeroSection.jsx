@@ -4,6 +4,8 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+const PATH_RESUME =
+  "https://drive.google.com/file/d/1AYF2moc-XQba7R2Gj9C4PZThnRQQGp-i/view";
 
 const HeroSection = () => {
   return (
@@ -49,7 +51,7 @@ const HeroSection = () => {
             </Link>
             <Link
               target="blank"
-              href="https://drive.google.com/drive/folders/127yRIHpmIQl6v_Y34F2R1u_JwQBay0j9?q=sharedwith:public%20parent:127yRIHpmIQl6v_Y34F2R1u_JwQBay0j9"
+              href={PATH_RESUME}
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
