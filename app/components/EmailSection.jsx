@@ -1,4 +1,5 @@
 "use client";
+import emailjs from "emailjs-com";
 import React, { useEffect, useRef, useState } from "react";
 import GithubIcon from "../../public/github-icon.svg";
 import LinkedinIcon from "../../public/linkedin-icon.svg";
@@ -39,21 +40,22 @@ const EmailSection = () => {
       subject: e.target.subject.value,
       message: e.target.message.value,
     };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSONdata,
-    };
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
-    }
+
+    emailjs
+      .send(
+        "service_m1eafcb", // Replace with your emailjs service ID
+        "template_0lai8g", // Replace with your emailjs template ID
+        data,
+        "cg6TBJg8-qyYXSZEV" // Replace with your emailjs user ID
+      )
+      .then(
+        (response) => {
+          setEmailSubmitted("Email sent successfully!");
+        },
+        (error) => {
+          setEmailSubmitted("Failed to send email. Please try again.");
+        }
+      );
   };
 
   return (
