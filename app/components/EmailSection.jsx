@@ -42,12 +42,7 @@ const EmailSection = () => {
     };
 
     emailjs
-      .send(
-        "service_m1eafcb", // Replace with your emailjs service ID
-        "template_0lai8g", // Replace with your emailjs template ID
-        data,
-        "cg6TBJg8-qyYXSZEV" // Replace with your emailjs user ID
-      )
+      .send("service_m1eafcb", "template_0lai8g", data, "cg6TBJg8-qyYXSZEV")
       .then(
         (response) => {
           setEmailSubmitted("Email sent successfully!");
