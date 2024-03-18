@@ -58,6 +58,26 @@ const projectsData = [
     gitUrl: "https://github.com/pallavigoyal2099/tic-tac-toe-using-nebular",
     previewUrl: "",
   },
+  {
+    id: 6,
+    title: "Photo Wall",
+    description:
+      "Designed and implemented a Progressive Web App (PWA) for a classic Tic-Tac-Toe game, ensuring an engaging and accessible experience across devices",
+    image: "/photowall.png",
+    tag: ["All", "ReactJs"],
+    gitUrl: "https://github.com/pallavigoyal2099/photo-gallery",
+    previewUrl: "https://photo-gallery-nu-ruddy.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Tasl Tracker",
+    description:
+      "Designed and implemented a Progressive Web App (PWA) for a classic Tic-Tac-Toe game, ensuring an engaging and accessible experience across devices",
+    image: "/tasktracker.png",
+    tag: ["All", "ReactJs"],
+    gitUrl: "https://github.com/pallavigoyal2099/taskrtracker",
+    previewUrl: "",
+  },
 ];
 
 const Projects = () => {
