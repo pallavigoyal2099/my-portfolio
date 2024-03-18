@@ -62,7 +62,7 @@ const projectsData = [
     id: 6,
     title: "Photo Wall",
     description:
-      "Designed and implemented a Progressive Web App (PWA) for a classic Tic-Tac-Toe game, ensuring an engaging and accessible experience across devices",
+      "Experience endless visual inspiration with our dynamic photo wall app & built-in search functionality. Save your favorites with wishlist feature and find them later with ease.",
     image: "/photowall.png",
     tag: ["All", "ReactJs"],
     gitUrl: "https://github.com/pallavigoyal2099/photo-gallery",
@@ -72,7 +72,7 @@ const projectsData = [
     id: 7,
     title: "Tasl Tracker",
     description:
-      "Designed and implemented a Progressive Web App (PWA) for a classic Tic-Tac-Toe game, ensuring an engaging and accessible experience across devices",
+      "Efficiently manage tasks and deadlines with our intuitive task tracker app, designed to streamline your productivity and keep you organized on the go",
     image: "/tasktracker.png",
     tag: ["All", "ReactJs"],
     gitUrl: "https://github.com/pallavigoyal2099/taskrtracker",

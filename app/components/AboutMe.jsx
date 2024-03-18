@@ -61,10 +61,11 @@ const AboutMe = () => {
             I&apos;m a full-stack web developer, I&apos;m passionate about
             crafting interactive and responsive web applications. My expertise
             includes JavaScript, Typescript,React, Redux, AngularJs, NextJs,
-            Node.js, Express, RDS, MySQL, HTML, CSS, and Git. A quick learner,
-            I&apos;m always eager to expand my knowledge. I thrive in a
-            collaborative environment, bringing strong teamwork skills to create
-            amazing applications.
+            Node.js, Express, MySQL, HTML, CSS, Git ad with great understanding
+            and experience in agile methodologies. A quick learner, I&apos;m
+            always eager to expand my knowledge. I thrive in a collaborative
+            environment, bringing strong teamwork skills to create amazing
+            applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
